@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ui.register.RegisterFragment">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person"
+            android:layout_marginBottom="@dimen/s"/>
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/first_name"/>
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:layout_marginTop="@dimen/s"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/last_name"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:layout_marginTop="@dimen/s"
+            android:padding="@dimen/xxs"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/input_box"
+            android:hint="@string/enter_email"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:layout_marginTop="@dimen/s"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/password"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:layout_marginTop="@dimen/s"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/confirm_password"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:text="@string/register"
+            android:insetTop="8dp"
+            android:insetBottom="8dp"
+            android:minHeight="36dp"
+            app:cornerRadius="15dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0000"
+            android:textColor="@color/cyan"
+            android:text="@string/login"
+            android:insetTop="8dp"
+            android:insetBottom="8dp"
+            android:minHeight="36dp"
+            app:cornerRadius="4dp"/>
+
+    </LinearLayout>
+</layout>

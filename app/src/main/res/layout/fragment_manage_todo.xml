@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ui.addEditTodo.add.AddTodoFragment">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/enter_a_title"/>
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/m"
+            android:layout_marginTop="@dimen/s"
+            android:padding="@dimen/xxs"
+            android:background="@drawable/input_box"
+            android:hint="@string/enter_a_description"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:text="@string/add"
+            android:insetTop="8dp"
+            android:insetBottom="8dp"
+            android:minHeight="36dp"
+            app:cornerRadius="4dp"/>
+
+    </LinearLayout>
+</layout>

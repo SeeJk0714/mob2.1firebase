@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "481405799855",
+    "firebase_url": "https://mob21firebase-23ecf-default-rtdb.firebaseio.com",
+    "project_id": "mob21firebase-23ecf",
+    "storage_bucket": "mob21firebase-23ecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481405799855:android:7626815557a0dbe78a735a",
+        "android_client_info": {
+          "package_name": "com.seejiekai.mob21firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSJiyd6nAjOabkDgULlxLuZx-OBlPK2pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481405799855-474in8afoom0fa1l5mkanqueutegjdjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
